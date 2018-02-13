@@ -1,0 +1,11 @@
+x = Foo
+y = Bar
+z = Baz
+x.c = y
+y = NULL
+COLLECT
+
+z = x
+COLLECT
+x.c = z
+COLLECT
